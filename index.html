@@ -11,6 +11,7 @@
   <script>
     document.getElementById('testButton').addEventListener('click', function() {
       fetch('https://script.google.com/macros/s/AKfycbxL6GNEOuMVLdnxqyVEBUl8-GwTBAx7df0ChjIipfYgIbhqs2xCgegtr_Uu1r1N_lM8zw/exec', {
+        redirect: 'follow',
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
